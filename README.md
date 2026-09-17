@@ -95,9 +95,3 @@ and compound collision resolution are working correctly.
 - No continuous collision detection — fast-moving small bodies can tunnel
   through thin colliders
 - Compound-vs-compound collision is not yet implemented
-
-## Motivation
-
-Built to deepen my understanding of the physics engine internals (Rapier)
-I rely on in my browser-based vehicle combat simulator, and to demonstrate
-core C++ and object-oriented systems programming for game engineering roles.
