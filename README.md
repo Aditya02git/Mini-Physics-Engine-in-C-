@@ -101,10 +101,3 @@ and compound collision resolution are working correctly.
 Built to deepen my understanding of the physics engine internals (Rapier)
 I rely on in my browser-based vehicle combat simulator, and to demonstrate
 core C++ and object-oriented systems programming for game engineering roles.
-
-## Codes
-
-g++ -std=c++17 -Iinclude src/main.cpp src/RigidBody.cpp src/CollisionDetection.cpp src/PhysicsWorld.cpp -o mini_physics_engine.exe
-
-g++ -std=c++17 -Iinclude -IC:/raylib/include src/viz_main.cpp src/RigidBody.cpp src/CollisionDetection.cpp src/PhysicsWorld.cpp -LC:/raylib/lib -lraylib -lopengl32 -lgdi32 -lwinmm -o viz.exe
-PS C:\Users\Aditya Mondal\Downloads\mini-physics-engine\mini-physics-engine> .\viz.exe
